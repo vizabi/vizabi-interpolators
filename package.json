@@ -1,6 +1,6 @@
 {
   "name": "vizabi-interpolators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interpolator functions shared between vizabi and waffle server",
   "main": "interpolators.js",
   "scripts": {
