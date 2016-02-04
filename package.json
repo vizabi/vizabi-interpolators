@@ -1,0 +1,25 @@
+{
+  "name": "vizabi-interpolators",
+  "version": "1.0.0",
+  "description": "Interpolator functions shared between vizabi and waffle server",
+  "main": "interpolators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gapminder/vizabi-interpolators.git"
+  },
+  "keywords": [
+    "interpolation",
+    "interpolator",
+    "algorithm",
+    "formula"
+  ],
+  "author": "Angie",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Gapminder/vizabi-interpolators/issues"
+  },
+  "homepage": "https://github.com/Gapminder/vizabi-interpolators#readme"
+}
