@@ -2,7 +2,7 @@
 Interpolation algorithms shared between vizabi and waffle-server
 
 ### API: 
-All interpolators accept the same inputs: x1, x2, y1, y2 - boundary points, x - point of interpolation
+All interpolators accept the same inputs: x1, x2, y1, y2 - boundary points, x - point of interpolation  
 `interpolator.<linear|exp|stepBefore|stepAfter|stepMiddle>(x1, x2, y1, y2, x)`
 
 and return the interpolated value y.
