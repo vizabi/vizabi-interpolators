@@ -7,7 +7,7 @@
 //
 export default  {
     linear: function(x1, x2, y1, y2, x) {
-      return +y1 + (y2 - y1) * (x - x1) / (x2 - x1);
+      return +y1 + (x - x1) / (x2 - x1) * (y2 - y1);
     },
     exp: function(x1, x2, y1, y2, x) {
       return Math.exp((Math.log(y1) * (x2 - x) - Math.log(y2) * (x1 - x)) / (x2 - x1));
